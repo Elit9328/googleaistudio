@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-cream: #FFFBEC;
+  --color-brand-red: #E63946;
+  --color-brand-teal: #2A9D8F;
+  --color-brand-orange: #F4A261;
+  --color-brand-dark: #264653;
+  --color-brand-black: #1A1A1A;
+}
+
+/* Custom scrollbar styling for a premium aesthetic matching the brutalist theme */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFFBEC;
+  border-left: 2px solid #1A1A1A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E63946;
+  border: 2px solid #1A1A1A;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2A9D8F;
+}
+

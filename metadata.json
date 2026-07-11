@@ -1,0 +1,8 @@
+{
+  "name": "Pusat Jagaan Sri Elit",
+  "description": "A beautiful, premium boutique play care center and early childhood play space in Ipoh, Perak, featuring interactive toy categories, child developmental play finder quiz, parent reviews, and center details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
